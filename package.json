@@ -1,0 +1,27 @@
+{
+    "name": "playwright-login-test-v2",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:ui": "playwright test --ui",
+        "test:report": "playwright show-report"
+    },
+    "dependencies": {
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.55.0",
+        "@types/node": "24.5.1",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "playwright": "^1.55.0",
+        "typescript": "latest"
+    }
+}
